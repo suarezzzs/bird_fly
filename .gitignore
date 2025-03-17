@@ -1,0 +1,68 @@
+# .gitignore
+# Ignorar arquivos e pastas gerais
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+*.log
+*.sqlite
+*.env
+.env/
+venv/
+env/
+.venv/
+
+# Ignorar arquivos de IDE/Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar builds e distribuições
+build/
+dist/
+*.exe
+*.spec
+*.msi
+*.dmg
+
+# Ignorar arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignorar dados de jogos salvos (se aplicável)
+highscores.dat
+savegame*.bin
+
+# Ignorar assets gerados (se houver processamento)
+*.png~
+*.wav~
+*.jpg~
+
+# Ignorar configurações específicas do projeto
+config.local.ini
+debug.flag
+
+# Ignorar arquivos do Windows
+[Tt]humbs.db
+ehthumbs*.db
+[Dd]esktop.ini
+
+# Ignorar arquivos do macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
